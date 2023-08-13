@@ -10,10 +10,11 @@ header {
   position: fixed;
   background-color: #000000;
   width: 100%;
-  z-index: 1000;
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
+  align-items: center;
 
 
 }
@@ -38,7 +39,7 @@ header {
 }
 .navbar .navlist li .logo img{
   
-  width: 60px;
+  width: 40px;
 }
 
 .navlist li a {
@@ -91,11 +92,12 @@ header {
 main {
 }
 main .homepage {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-image: url(../img/homebg.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center ;
+  background-color: #464847;
   display: flex;
   color: white;
   align-items: center;
@@ -202,6 +204,7 @@ main .menuitem {
   height: 270px;
   width: 370px;
 }
+
 
 .fooditems .pic {
   width: 370px;
@@ -325,7 +328,7 @@ footer hr {
 
 }
 .sociallink .contact-logo a i{
-  font-size: 13px;
+  font-size: 15px;
   width: 20px;
   
 }
